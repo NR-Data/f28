@@ -1,0 +1,2062 @@
+{
+  "catalogue": {
+    "name": "Republics_Lib",
+    "id": "373d-ca04-214b-ef40",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "7558-af3d-5eb8-db9c",
+    "gameSystemRevision": 45,
+    "library": true,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Master Assassin",
+        "id": "cbcd-601f-215f-3c56",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a7db-5515-cfd8-d244",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Republic VTOL Gunship",
+        "id": "283e-5fee-c50d-e89d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5ccf-876a-77a3-2832",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "As. Chemo-berserker",
+        "id": "cb0b-5d18-405a-5603",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "3f2b-c9d0-9cb3-bd13",
+        "typeName": "Models",
+        "characteristics": [
+          {"name": "Type", "$text": "Regular", "typeId": "6851-3ebd-09f4-676d"},
+          {"name": "Wounds", "$text": "1", "typeId": "a4e3-afe7-fa56-6899"},
+          {"name": "Target", "$text": "4, re-roll", "typeId": "591c-163f-c1e8-dfa3"},
+          {"name": "Defence", "$text": "4x2", "typeId": "bc5e-e8d4-df78-f81b"},
+          {"name": "Tough", "$text": "6", "typeId": "c48e-fefe-28bf-76e3"},
+          {"name": "Morale", "$text": "0", "typeId": "dcd1-8457-ab88-a19a"},
+          {"name": "Move", "$text": "6", "typeId": "6423-148f-5061-e61e"}
+        ]
+      },
+      {
+        "name": "As. Chameleon",
+        "id": "2b3c-b9a6-6713-4f2f",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "3f2b-c9d0-9cb3-bd13",
+        "typeName": "Models",
+        "characteristics": [
+          {"name": "Type", "$text": "Regular", "typeId": "6851-3ebd-09f4-676d"},
+          {"name": "Wounds", "$text": "1", "typeId": "a4e3-afe7-fa56-6899"},
+          {"name": "Target", "$text": "4, re-roll", "typeId": "591c-163f-c1e8-dfa3"},
+          {"name": "Defence", "$text": "4x2", "typeId": "bc5e-e8d4-df78-f81b"},
+          {"name": "Tough", "$text": "2", "typeId": "c48e-fefe-28bf-76e3"},
+          {"name": "Morale", "$text": "0", "typeId": "dcd1-8457-ab88-a19a"},
+          {"name": "Move", "$text": "6", "typeId": "6423-148f-5061-e61e"}
+        ]
+      },
+      {
+        "name": "As. Mystic hunter",
+        "id": "ff1b-6a87-fa59-8454",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "3f2b-c9d0-9cb3-bd13",
+        "typeName": "Models",
+        "characteristics": [
+          {"name": "Type", "$text": "Regular", "typeId": "6851-3ebd-09f4-676d"},
+          {"name": "Wounds", "$text": "1", "typeId": "a4e3-afe7-fa56-6899"},
+          {"name": "Target", "$text": "4, re-roll", "typeId": "591c-163f-c1e8-dfa3"},
+          {"name": "Defence", "$text": "min 6x2", "typeId": "bc5e-e8d4-df78-f81b"},
+          {"name": "Tough", "$text": "6", "typeId": "c48e-fefe-28bf-76e3"},
+          {"name": "Morale", "$text": "0", "typeId": "dcd1-8457-ab88-a19a"},
+          {"name": "Move", "$text": "6", "typeId": "6423-148f-5061-e61e"}
+        ]
+      },
+      {
+        "name": "As. Master Sniper",
+        "id": "ce29-d792-dffc-4ae6",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "3f2b-c9d0-9cb3-bd13",
+        "typeName": "Models",
+        "characteristics": [
+          {"name": "Type", "$text": "Regular", "typeId": "6851-3ebd-09f4-676d"},
+          {"name": "Wounds", "$text": "1", "typeId": "a4e3-afe7-fa56-6899"},
+          {"name": "Target", "$text": "4", "typeId": "591c-163f-c1e8-dfa3"},
+          {"name": "Defence", "$text": "4x2", "typeId": "bc5e-e8d4-df78-f81b"},
+          {"name": "Tough", "$text": "2", "typeId": "c48e-fefe-28bf-76e3"},
+          {"name": "Morale", "$text": "0", "typeId": "dcd1-8457-ab88-a19a"},
+          {"name": "Move", "$text": "6", "typeId": "6423-148f-5061-e61e"}
+        ]
+      },
+      {
+        "name": "Blade",
+        "id": "6aca-13ff-3651-29cf",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "54e1-0f72-802c-b80d",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": ".", "typeId": "5cc5-b871-6eff-d6c1"},
+          {"name": "Range", "$text": "CC (4)", "typeId": "fea5-12e0-2cf5-710d"},
+          {"name": "Hit", "$text": "+1", "typeId": "64c1-d271-0713-c5fb"},
+          {"name": "Wound", "$text": "+2", "typeId": "b32a-d8ea-49af-57ad"},
+          {"name": "Traits", "$text": "ignore Defence(min)", "typeId": "62b8-d616-a7fc-060c"}
+        ]
+      },
+      {
+        "name": "Shredder",
+        "id": "8299-bc7a-429a-0900",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "54e1-0f72-802c-b80d",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": ".", "typeId": "5cc5-b871-6eff-d6c1"},
+          {"name": "Range", "$text": "8” (1)", "typeId": "fea5-12e0-2cf5-710d"},
+          {"name": "Hit", "$text": "spray(half)", "typeId": "64c1-d271-0713-c5fb"},
+          {"name": "Wound", "typeId": "b32a-d8ea-49af-57ad"},
+          {"name": "Traits", "$text": "suppression(x2)", "typeId": "62b8-d616-a7fc-060c"}
+        ]
+      },
+      {
+        "name": "Pistol and Rifle",
+        "id": "d646-2f0f-9709-2b12",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "54e1-0f72-802c-b80d",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": ".", "typeId": "5cc5-b871-6eff-d6c1"},
+          {"name": "Range", "$text": "36” (1)", "typeId": "fea5-12e0-2cf5-710d"},
+          {"name": "Hit", "typeId": "64c1-d271-0713-c5fb"},
+          {"name": "Wound", "$text": "min3/min6", "typeId": "b32a-d8ea-49af-57ad"},
+          {"name": "Traits", "$text": "pistol, priority(hit(min 2)), select option", "typeId": "62b8-d616-a7fc-060c"}
+        ]
+      },
+      {
+        "name": "Gauntlet",
+        "id": "17f7-872b-cdb8-9b7f",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "54e1-0f72-802c-b80d",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": ".", "typeId": "5cc5-b871-6eff-d6c1"},
+          {"name": "Range", "$text": "CC (4)", "typeId": "fea5-12e0-2cf5-710d"},
+          {"name": "Hit", "$text": "+1 vs unarmed", "typeId": "64c1-d271-0713-c5fb"},
+          {"name": "Wound", "$text": "+2, re-roll", "typeId": "b32a-d8ea-49af-57ad"},
+          {"name": "Traits", "$text": "savage strike", "typeId": "62b8-d616-a7fc-060c"}
+        ]
+      },
+      {
+        "name": "Custom Pistol",
+        "id": "5d15-3a2d-a4c3-d8ef",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "54e1-0f72-802c-b80d",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": ".", "typeId": "5cc5-b871-6eff-d6c1"},
+          {"name": "Range", "$text": "12” (2)", "typeId": "fea5-12e0-2cf5-710d"},
+          {"name": "Hit", "typeId": "64c1-d271-0713-c5fb"},
+          {"name": "Wound", "$text": "+1, re-roll", "typeId": "b32a-d8ea-49af-57ad"},
+          {"name": "Traits", "typeId": "62b8-d616-a7fc-060c"}
+        ]
+      },
+      {
+        "name": "Psychic blast and terror grenades",
+        "id": "5742-184f-e0fb-3173",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "54e1-0f72-802c-b80d",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": ".", "typeId": "5cc5-b871-6eff-d6c1"},
+          {"name": "Range", "$text": "12” (1)", "typeId": "fea5-12e0-2cf5-710d"},
+          {"name": "Hit", "$text": "re-roll, blast vs regular", "typeId": "64c1-d271-0713-c5fb"},
+          {"name": "Wound", "$text": "min 5+", "typeId": "b32a-d8ea-49af-57ad"},
+          {"name": "Traits", "$text": "pistol, suppression(x2)", "typeId": "62b8-d616-a7fc-060c"}
+        ]
+      },
+      {
+        "name": "Re. VTOL Gunship",
+        "id": "7149-ec28-82a7-0c4a",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf",
+        "typeId": "d94e-cbef-94c3-d963",
+        "typeName": "Vehicles",
+        "characteristics": [
+          {"name": "Type", "$text": "Vehicle(VTOL)", "typeId": "38c7-4971-d159-0612"},
+          {"name": "Wounds", "$text": "1", "typeId": "0856-73ac-860b-c2f3"},
+          {"name": "Target", "$text": "min 5 OR 5", "typeId": "a61d-9a4d-ee19-f432"},
+          {"name": "Defence", "$text": "7", "typeId": "61ff-d3d0-d23d-332c"},
+          {"name": "Capacity", "$text": "-", "typeId": "2760-e837-ae05-5d45"},
+          {"name": "Move", "$text": "flight", "typeId": "3b4e-2e12-cbb9-1dc8"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Sow dissent",
+        "id": "2003-11d1-cd34-6839",
+        "description": "The first time your opponent uses a Faction Point each turn it is cancelled on 4+.",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf"
+      },
+      {
+        "name": "Pistol and Rifle",
+        "id": "a0fc-5394-b7bf-564c",
+        "description": "wound(min 3 vs regular, min 6 vs massive),\nselect option each attack: attack(x2) OR platebreaker OR ignore Defence(min)",
+        "hidden": false,
+        "page": 74,
+        "publicationId": "4d21-d403-2f77-bbaf"
+      },
+      {"name": "ATGM Launcher", "id": "0dda-8c15-6fc3-0fab", "description": "Model has 1x ATGM.", "hidden": false, "page": 79, "publicationId": "91df-c558-75f9-73ea"},
+      {"name": "Flak MG", "id": "381f-a566-e34c-45ee", "description": "Model has Flak.", "hidden": false, "page": 79, "publicationId": "91df-c558-75f9-73ea"},
+      {
+        "name": "Bones of the paragon",
+        "id": "835d-4116-5aa1-ca6b",
+        "description": "This model counts as five (5) extra wounds for scoring purposes. Note that this also affects when the unit counts as “50% destroyed”.",
+        "hidden": false,
+        "page": 89,
+        "publicationId": "4d21-d403-2f77-bbaf"
+      },
+      {
+        "name": "Brazier of holy incense",
+        "id": "99dd-4e4e-3f6d-3515",
+        "description": "This model’s unit may snatch the initiative for free.",
+        "hidden": false,
+        "page": 89,
+        "publicationId": "4d21-d403-2f77-bbaf"
+      },
+      {
+        "name": "Icon of noted saint",
+        "id": "ec8b-07fe-b345-fb6d",
+        "description": "This model has Martyr(+1 FP) if it is the last model in the unit.",
+        "hidden": false,
+        "page": 89,
+        "publicationId": "4d21-d403-2f77-bbaf"
+      },
+      {
+        "name": "Martyred comrade",
+        "id": "43bc-ff69-f0b4-3294",
+        "description": "This model has Bestow Morale(1)",
+        "hidden": false,
+        "page": 89,
+        "publicationId": "4d21-d403-2f77-bbaf"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Master Assassin",
+        "id": "a7db-5515-cfd8-d244",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0014-ae5c-02b0-f773", "hidden": false, "primary": true, "targetId": "8882-253b-967f-1dba"}],
+        "constraints": [
+          {
+            "id": "1fa3-80ea-7497-eed3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "8cbb-0241-8e2a-f101",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Master Assassin (1-2)",
+            "id": "a635-be57-e4d7-0ae4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6f60-3459-2755-85f9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "c02e-055e-65ea-6df5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Chemo-berserker",
+                "id": "bf00-1d21-20b0-c8e4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "ec99-345e-1bb6-0546",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                  {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 50},
+                  {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "AT-grenades",
+                    "id": "7777-5dfc-2c27-1865",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c4a-859e-561c-f828",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "2daf-813f-d344-36e2",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "db52-a1ac-69c5-4e58",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Re. Chemo-berserker", "id": "2863-2043-a59d-9de9", "hidden": false, "targetId": "cb0b-5d18-405a-5603", "type": "profile"},
+                  {"name": "Scoring(no)", "id": "2790-f907-a44d-c076", "hidden": false, "targetId": "524d-a8fe-dcac-7b31", "type": "rule"},
+                  {"name": "Move(nimble)", "id": "fb57-ecee-241d-04b7", "hidden": false, "targetId": "24bb-22c4-4911-4648", "type": "rule"},
+                  {"name": "Move(fleet)", "id": "cb34-7771-8242-862d", "hidden": false, "targetId": "d63a-1bad-5f14-8395", "type": "rule"},
+                  {"name": "Charge(3\")", "id": "bad0-3881-1b35-36c8", "hidden": false, "targetId": "7c92-fa16-ee47-4ebc", "type": "rule"},
+                  {"name": "Insertion(superior)", "id": "9f07-356e-6bf0-b96c", "hidden": false, "targetId": "b4d9-bd94-8aab-1f6b", "type": "rule"},
+                  {"name": "Hazardous Target(CC)", "id": "1eed-6cf6-bcba-9571", "hidden": false, "targetId": "d83d-0b9a-4792-7e26", "type": "rule"},
+                  {
+                    "name": "Martyr(units within 2” take a dangerous terrain test)",
+                    "id": "3142-ef14-cf49-8ab3",
+                    "hidden": false,
+                    "targetId": "18af-e88d-f941-a357",
+                    "type": "rule"
+                  },
+                  {"name": "Driving hunger", "id": "ee98-d65d-f86b-c84b", "hidden": false, "targetId": "b2a4-8707-21fc-82aa", "type": "rule"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Custom Pistol",
+                    "id": "c76b-1ebb-0479-1c65",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "e856-5c03-875e-e8c3",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "5baf-1f60-20a0-3c71",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ],
+                    "infoLinks": [{"name": "Custom Pistol", "id": "a979-88d5-e50b-3b7b", "hidden": false, "targetId": "5d15-3a2d-a4c3-d8ef", "type": "profile"}]
+                  },
+                  {
+                    "name": "Gauntlet",
+                    "id": "0a15-2a34-12bd-e5ae",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "888e-3f27-a363-a77e",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "1dbe-d207-f13b-3a38",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Gauntlet", "id": "7ede-5a8f-d34f-04f4", "hidden": false, "targetId": "17f7-872b-cdb8-9b7f", "type": "profile"},
+                      {"name": "Savage Strike", "id": "5e89-0a5b-9d73-d025", "hidden": false, "targetId": "6f96-a37b-1fe7-1240", "type": "rule"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mystic hunter",
+                "id": "f397-c999-7577-3f28",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "c677-7646-7228-a24a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                  {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 50},
+                  {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Re. Mystic hunter", "id": "9ff3-e8a1-b7e2-9804", "hidden": false, "targetId": "ff1b-6a87-fa59-8454", "type": "profile"},
+                  {"name": "Scoring(no)", "id": "1b8f-e4f8-508d-1f4a", "hidden": false, "targetId": "524d-a8fe-dcac-7b31", "type": "rule"},
+                  {"name": "Move(nimble)", "id": "058e-6149-953c-4231", "hidden": false, "targetId": "24bb-22c4-4911-4648", "type": "rule"},
+                  {"name": "Infiltrate", "id": "1a32-37fd-6375-4c04", "hidden": false, "targetId": "213d-24ea-7704-b13f", "type": "rule"},
+                  {"name": "Move(fleet)", "id": "9eab-6c55-c3c6-c659", "hidden": false, "targetId": "d63a-1bad-5f14-8395", "type": "rule"},
+                  {"name": "Inflict Disruption(12\")", "id": "7c4f-4258-1b1d-dd19", "hidden": false, "targetId": "2c73-4970-84b9-086e", "type": "rule"},
+                  {"name": "Terror(6\")", "id": "7cff-44cc-6456-c303", "hidden": false, "targetId": "e7ae-0682-39d1-a3ba", "type": "rule"},
+                  {"name": "Move and Fire", "id": "4c80-abae-1e17-c2aa", "hidden": false, "targetId": "968a-927f-eff7-659b", "type": "rule"},
+                  {"name": "Cause Unstable (12”, mystics)", "id": "fb33-fb22-0876-1c6f", "hidden": false, "targetId": "7ec3-78c1-7c17-ab51", "type": "rule"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Psychic blast and terror grenades",
+                    "id": "79e0-2e70-758f-8e62",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "d498-5687-a4ad-572e",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "b31d-4ff9-9ce2-1ded",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ],
+                    "infoLinks": [{"name": "Psychic blast and terror grenades", "id": "7a03-0797-d48a-6408", "hidden": false, "targetId": "5742-184f-e0fb-3173", "type": "profile"}]
+                  }
+                ]
+              },
+              {
+                "name": "Chameleon",
+                "id": "bc64-9e5c-cef8-bd79",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "d8b9-f4dc-77cb-8b4c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                  {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 50},
+                  {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "AT-grenades",
+                    "id": "167c-525a-23b4-1aeb",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9c4a-859e-561c-f828",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "30c8-0184-5a59-5a04",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "c601-d316-7b74-d84b",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Re. Chameleon Assassin", "id": "f233-e118-1a06-ca4c", "hidden": false, "targetId": "2b3c-b9a6-6713-4f2f", "type": "profile"},
+                  {"name": "Hazardous Target(CC)", "id": "b5fd-0b18-755f-0f99", "hidden": false, "targetId": "d83d-0b9a-4792-7e26", "type": "rule"},
+                  {"name": "Move(fleet)", "id": "5cdd-0ecb-74d5-c511", "hidden": false, "targetId": "d63a-1bad-5f14-8395", "type": "rule"},
+                  {"name": "Move(nimble)", "id": "4826-a7a4-d14a-560e", "hidden": false, "targetId": "24bb-22c4-4911-4648", "type": "rule"},
+                  {"name": "Ambush(superior)", "id": "ef64-35f2-f082-6990", "hidden": false, "targetId": "39da-5e02-4dbb-7d09", "type": "rule"},
+                  {"name": "Assassin", "id": "54bd-f8a0-68a1-0ec6", "hidden": false, "targetId": "6137-700d-31f3-d5f2", "type": "rule"},
+                  {"name": "Scoring(no)", "id": "dff0-9188-db8e-45a6", "hidden": false, "targetId": "524d-a8fe-dcac-7b31", "type": "rule"},
+                  {"name": "Sow dissent", "id": "e282-ac57-1359-01f0", "hidden": false, "targetId": "2003-11d1-cd34-6839", "type": "rule"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Shredder",
+                    "id": "9cf1-3ebe-10d4-1a92",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "2627-84b7-432c-1951",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "e5d1-d201-5405-4c26",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ],
+                    "infoLinks": [{"name": "Shredder", "id": "cad5-92ad-9f5f-2d25", "hidden": false, "targetId": "8299-bc7a-429a-0900", "type": "profile"}]
+                  },
+                  {
+                    "name": "Blade",
+                    "id": "288d-f19a-798f-f62b",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "ff25-9bf2-de91-cef4",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "ee19-c7d2-48be-d0a6",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ],
+                    "infoLinks": [{"name": "Blade", "id": "4a3f-9c37-43b4-8e87", "hidden": false, "targetId": "6aca-13ff-3651-29cf", "type": "profile"}]
+                  }
+                ]
+              },
+              {
+                "name": "Master Sniper",
+                "id": "d4cc-4629-f825-73df",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "4c7b-5da6-3907-4050",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                  {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 50},
+                  {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Re. Master Sniper", "id": "1cf3-6e3b-777f-9604", "hidden": false, "targetId": "ce29-d792-dffc-4ae6", "type": "profile"},
+                  {"name": "Scoring(no)", "id": "9ad8-8808-1b26-cfa3", "hidden": false, "targetId": "524d-a8fe-dcac-7b31", "type": "rule"},
+                  {"name": "Move(nimble)", "id": "90b4-8017-c7bb-b047", "hidden": false, "targetId": "24bb-22c4-4911-4648", "type": "rule"},
+                  {"name": "Infiltrate", "id": "f763-81ea-fb93-3b4e", "hidden": false, "targetId": "213d-24ea-7704-b13f", "type": "rule"},
+                  {"name": "Exfiltrate", "id": "24e1-a612-da53-b29a", "hidden": false, "targetId": "c29b-9d55-3bb8-ea36", "type": "rule"},
+                  {"name": "Assassin", "id": "9964-0a9a-6587-8cd7", "hidden": false, "targetId": "6137-700d-31f3-d5f2", "type": "rule"},
+                  {"name": "Camouflage(12\")", "id": "acb5-3a1a-809e-7e71", "hidden": false, "targetId": "0c84-0530-8db3-c3d2", "type": "rule"},
+                  {"name": "Ignore Concealment", "id": "e680-9527-8696-e194", "hidden": false, "targetId": "7c72-61e3-2388-db9f", "type": "rule"},
+                  {"name": "Move(fleet)", "id": "892c-5815-e106-e372", "hidden": false, "targetId": "d63a-1bad-5f14-8395", "type": "rule"},
+                  {"name": "Ignore Camouflage", "id": "81bd-45f5-5bde-c415", "hidden": false, "targetId": "b918-7530-0af8-d060", "type": "rule"},
+                  {"name": "Ignore Hidden", "id": "aca2-8c4a-fd9a-f220", "hidden": false, "targetId": "4a7b-44de-16a9-c03c", "type": "rule"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Pistol and Rifle",
+                    "id": "544a-563e-e7ff-825d",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "be66-3c33-3937-c146",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "3ec9-9e59-54d3-85bd",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Pistol and Rifle", "id": "96c0-86ff-57d9-939f", "hidden": false, "targetId": "d646-2f0f-9709-2b12", "type": "profile"},
+                      {"name": "Pistol and Rifle", "id": "969d-3ec3-3f88-a066", "hidden": false, "targetId": "a0fc-5394-b7bf-564c", "type": "rule"},
+                      {"name": "Platebreaker", "id": "d146-d14a-45c6-e017", "hidden": false, "targetId": "a1ed-6517-ae1a-b5bd", "type": "rule"},
+                      {"name": "Attack(x2)", "id": "4405-5d51-b996-bf96", "hidden": false, "targetId": "0527-8690-35c7-a862", "type": "rule"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Republic VTOL Gunship",
+        "id": "5ccf-876a-77a3-2832",
+        "collective": false,
+        "comment": "Moved to Republic/Order in PG 1RE1P",
+        "hidden": true,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0b1d-1532-4a85-c005", "hidden": false, "primary": true, "targetId": "8882-253b-967f-1dba"}],
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Upgrade any model (Re)",
+            "id": "c7af-deb3-ae17-e377",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "d667-968b-002c-38bb",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "36a8-0f0b-2007-0f6c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "5ccf-876a-77a3-2832",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Upgrade any Ground vehicle (Re)",
+            "id": "92d1-c25c-9a27-fdc4",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "bdc3-f432-4581-f73f",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "36a8-0f0b-2007-0f6c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "5ccf-876a-77a3-2832",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Upgrade any ground unit",
+            "id": "5792-e055-cf23-3727",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6233-cf03-b908-6b25",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Upgrade any model (Or)",
+            "id": "b311-1384-d46b-86f7",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "ff44-dd2e-b8df-fb6b",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "3422-61fd-c55f-9cd8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "5ccf-876a-77a3-2832",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "8cbb-0241-8e2a-f101",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Republic VTOL Gunship",
+            "id": "d0b4-b411-2879-b258",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e4bd-80bc-3e51-6049",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "HMG",
+                "id": "05b8-4cf0-7a12-8e31",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5400-40bd-bd89-83aa",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "b4cc-8455-9a13-9315",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "b5f1-2746-91e4-dd56",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Hardpoint weapons",
+                "id": "83f7-1054-f31f-ec0d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "targetId": "d0f2-6b32-b4e4-dcc5",
+                "type": "selectionEntryGroup",
+                "constraints": [
+                  {
+                    "id": "b89f-8898-9e08-8372",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 0
+                  },
+                  {
+                    "id": "00f0-9ddd-8a3e-8ed3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "8a6f-4392-7f5e-2985",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "00f0-9ddd-8a3e-8ed3",
+                    "type": "increment",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "8a6f-4392-7f5e-2985",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "b89f-8898-9e08-8372",
+                    "type": "increment",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "8a6f-4392-7f5e-2985",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Republic VTOL Gunship",
+                "id": "5426-8e83-f7da-f22f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [
+                  {
+                    "id": "ed36-a4fb-16b5-2b8b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "bbd1-1279-e3d5-fd7c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 105},
+                  {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                  {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Re. VTOL Gunship", "id": "5349-c2cd-3c55-e2e0", "hidden": false, "targetId": "7149-ec28-82a7-0c4a", "type": "profile"},
+                  {"name": "VTOL", "id": "21d9-fda0-b2d0-662c", "hidden": false, "targetId": "428c-e0ea-ff6d-9f18", "type": "rule"},
+                  {"name": "Move(flight)", "id": "25bf-ee16-9e13-556f", "hidden": false, "targetId": "6731-0aa0-7d0f-3876", "type": "rule"},
+                  {"name": "Vehicle", "id": "3a94-a639-654e-a908", "hidden": false, "targetId": "ca51-037a-f7e2-4764", "type": "rule"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapon Options",
+                "id": "a164-525b-1ce7-fbc7",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8d35-f35c-0e1c-5b39",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 0
+                  },
+                  {
+                    "id": "32b3-40d3-caf2-d3dc",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Dual Tank gatling cannon",
+                    "id": "d250-5dd3-37ad-4a20",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9f5-ea8d-4045-c616",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "4b35-4267-7fc5-3db5",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 50}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "2b99-5566-8601-d37a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "32b3-40d3-caf2-d3dc",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "2b99-5566-8601-d37a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "8d35-f35c-0e1c-5b39",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "2b99-5566-8601-d37a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Weapon Options",
+                "id": "3895-2193-45b5-040d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4d06-7d5f-d00c-d012",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 0
+                  },
+                  {
+                    "id": "5629-f133-5262-abd5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 0
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Dual Rapid Laser",
+                    "id": "f91e-3bb0-4b10-fb96",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1cdb-258d-22e5-65db",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "1b71-8e08-deb1-8c6b",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dual LATCannon",
+                    "id": "ff40-4429-fcbe-da46",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "92b2-6625-9e38-cf6e",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "324f-a0a1-4dc6-9cde",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 15}]
+                  },
+                  {
+                    "name": "Dual Autocannon",
+                    "id": "88ab-05fe-972a-b85a",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9844-14c3-5794-406e",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "d307-0ee6-8b49-0873",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 5}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "8a6f-4392-7f5e-2985",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5629-f133-5262-abd5",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "8a6f-4392-7f5e-2985",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "4d06-7d5f-d00c-d012",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "8a6f-4392-7f5e-2985",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5ccf-876a-77a3-2832",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Options",
+                "id": "e77f-fde0-bfeb-ea00",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "0721-3df3-cb09-bfe4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "3fec-cc76-1d90-a9de",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Heavy",
+                    "id": "2b99-5566-8601-d37a",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "6af5-4234-4086-28ed",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ]
+                  },
+                  {
+                    "name": "Light",
+                    "id": "8a6f-4392-7f5e-2985",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "6699-042a-e445-7ac8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Force option",
+                "id": "bb58-cb98-dc36-5920",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "3c55-8d99-ab9c-934c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "f1f4-3291-acea-9b1b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Orders of the Republic",
+                    "id": "3422-61fd-c55f-9cd8",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "a571-efd3-5d70-b31a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ]
+                  },
+                  {
+                    "name": "Army of the Republic",
+                    "id": "36a8-0f0b-2007-0f6c",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "44f6-a8f4-ae51-c29b",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+                      {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+                      {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ATGM Launcher",
+        "id": "5e49-e7cc-c61c-28f9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "ATGM Launcher", "id": "7c23-bed3-3d4b-ed77", "hidden": false, "targetId": "0dda-8c15-6fc3-0fab", "type": "rule"},
+          {"name": "ATGM", "id": "187e-2e13-110f-ffb5", "hidden": false, "targetId": "f530-c4f4-3c00-6f18", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Flak MG",
+        "id": "f874-f186-b7da-56c1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Flak", "id": "66e9-b04d-ee75-67da", "hidden": false, "targetId": "6284-54c7-4ca1-5bfe", "type": "rule"},
+          {"name": "Flak MG", "id": "478d-3e91-c882-e7a1", "hidden": false, "targetId": "381f-a566-e34c-45ee", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Bones of the paragon",
+        "id": "5a84-b032-2d80-7bf0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "infoLinks": [{"name": "Bones of the paragon", "id": "ddc1-0a86-73bc-b333", "hidden": false, "targetId": "835d-4116-5aa1-ca6b", "type": "rule"}]
+      },
+      {
+        "name": "Brazier of holy incense",
+        "id": "fbb8-989c-ee22-02d1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Brazier of holy incense", "id": "883b-cd8c-f053-0e57", "hidden": false, "targetId": "99dd-4e4e-3f6d-3515", "type": "rule"},
+          {"name": "Snatch the Initiative", "id": "f7a2-796e-9184-5e30", "hidden": false, "targetId": "a8bf-1f50-f661-ec0c", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Icon of noted saint",
+        "id": "f7fa-a0f3-86aa-fa11",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Icon of noted saint", "id": "2857-2536-6ec8-3031", "hidden": false, "targetId": "ec8b-07fe-b345-fb6d", "type": "rule"},
+          {"name": "Martyr(+1 FP)", "id": "ca3d-0e0b-8270-448d", "hidden": false, "targetId": "2c9a-8480-912e-be0a", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Martyred comrade",
+        "id": "7ccc-a534-7db3-1e51",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 0},
+          {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 0},
+          {"name": "FP", "typeId": "9edd-fdb1-a197-a401", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Martyred comrade", "id": "5525-5681-3b42-c6f0", "hidden": false, "targetId": "43bc-ff69-f0b4-3294", "type": "rule"},
+          {"name": "Bestow Morale(1)", "id": "7794-dfd3-4714-884a", "hidden": false, "targetId": "fd36-84c7-7a08-d0f8", "type": "rule"}
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Hardpoint weapons",
+        "id": "d0f2-6b32-b4e4-dcc5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "entryLinks": [
+          {
+            "name": "Antitank missile",
+            "id": "9807-6178-4e06-e7b6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f6da-d011-3ff7-7ebd",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Blast missile",
+            "id": "39ec-c7cf-90ec-bd64",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3250-d07a-d20d-d4c6",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Bomb cluster",
+            "id": "133f-9d17-5be8-3d40",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6503-2dc4-c489-9cef",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Seeker missile",
+            "id": "d354-757c-ffda-4ffc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f821-d8b1-7dc8-e15e",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Incendiary bomb",
+            "id": "11af-d8f1-7cda-1d45",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3fd6-6c30-a9f8-549b",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Iron bomb",
+            "id": "ea04-ae29-ffc3-a36f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3758-ef1e-8046-bd50",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Rocket pod",
+            "id": "337a-fe6e-6134-61cb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4af5-7655-5d50-0327",
+            "type": "selectionEntry"
+          }
+        ]
+      },
+      {
+        "name": "Upgrade any model (Re)",
+        "id": "d667-968b-002c-38bb",
+        "collective": false,
+        "comment": "Rebublic",
+        "hidden": false,
+        "import": true,
+        "entryLinks": [
+          {
+            "name": "Scanner",
+            "id": "3d5f-ceed-996c-01a2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "647c-b65e-f6c3-3ed3",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "1494-5ea5-33f0-7480",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}, {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade any Ground vehicle (Re)",
+        "id": "bdc3-f432-4581-f73f",
+        "collective": false,
+        "comment": "Republic",
+        "hidden": false,
+        "import": true,
+        "entryLinks": [
+          {
+            "name": "Armour Skirts",
+            "id": "82a3-a559-fafd-7f4e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "07b1-eb19-fc7b-2c61",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "5615-ad35-9381-fa60",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}, {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}]
+          },
+          {
+            "name": "ATGM Launcher",
+            "id": "6879-4acf-0f30-57c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5e49-e7cc-c61c-28f9",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "ed7e-275f-5303-63d4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 5}, {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}]
+          },
+          {
+            "name": "Flak MG",
+            "id": "672c-7522-621f-401b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f874-f186-b7da-56c1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6665-264a-0a2e-e3d9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 5}]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade any model (Or)",
+        "id": "ff44-dd2e-b8df-fb6b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "entryLinks": [
+          {
+            "name": "Insertion Beacon",
+            "id": "0469-efc0-4a34-4792",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "01c1-d023-6c70-ee3e",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "566a-325c-9e56-9912",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}, {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}]
+          },
+          {
+            "name": "Relic of the Republic",
+            "id": "911f-cd44-1b52-e9be",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b190-5ea1-4886-da16",
+            "type": "selectionEntryGroup"
+          }
+        ]
+      },
+      {
+        "name": "Upgrade any ground unit",
+        "id": "6233-cf03-b908-6b25",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "entryLinks": [
+          {
+            "name": "Smoke grenades",
+            "id": "5d5f-0cb0-eb73-c8e2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1268-8496-4a3f-8a0b",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "8d5f-370a-24bd-790c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 5}, {"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Relic of the Republic",
+        "id": "b190-5ea1-4886-da16",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "41fa-473b-860c-dc77",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Bones of the paragon",
+            "id": "c364-0eef-911b-6ae6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5a84-b032-2d80-7bf0",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "17b2-054f-e6b0-893a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}, {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}]
+          },
+          {
+            "name": "Brazier of holy incense",
+            "id": "d5a2-6d10-a978-0941",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "fbb8-989c-ee22-02d1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6390-b9a3-9cc0-5bdd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}, {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}]
+          },
+          {
+            "name": "Icon of noted saint",
+            "id": "f7cd-ff1b-e524-f1b7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f7fa-a0f3-86aa-fa11",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "c1f6-252d-6385-d6e3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}, {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}]
+          },
+          {
+            "name": "Martyred comrade",
+            "id": "aa7a-87ce-7aa8-1f8d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7ccc-a534-7db3-1e51",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "41eb-0ec0-d60d-aac7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "U", "typeId": "2744-00fe-78fa-f968", "value": 1}, {"name": "p", "typeId": "95b5-c653-a5e7-8869", "value": 10}]
+          }
+        ]
+      }
+    ]
+  }
+}
